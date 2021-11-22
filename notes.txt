@@ -1,0 +1,179 @@
+*** Everything in python is OBJECT ****
+*** Every object contains methods *****
+
+
+number
+--------
+number can be integer or decial or octal or hex
+
+val = 10
+aval = 45.5
+print(val)
+
+string
+-------
+string is sequence of characters
+string can be single quotes or double or triple quotes
+
+aname = 'python programming'
+bname = "java programming"
+cname = """hadoop"""
+
+
+
+list
+------
+list contains set of elements.
+elements can be numbers or strings or any combination.
+
+alist = [10,20,30]
+blist  =  ["python","scala","oracle"]
+clist = [10,45.4,"python"]
+
+
+
+
+tuple  ( READ ONLY )( IMMUTABLE)
+------
+tuple contains set of elements
+elements can be numbers or strings or any combination.
+tuple elments are defined in ().
+Elements inside tuple CANNOT be modified DIRECTLY  but INDIRETLY we can modify
+
+atup = (45,34.44,"java")
+
+
+dictionary ( map or hash )
+----------
+dictionary contains elements in key:value pairs
+dictionary elements are defined in {}.
+
+syntax:    object = {key:value , key:value }
+example:     book = {"chap1":10 ,"chap2":20 }
+
+
+
+set
+----
+set is UNORDERED collection of UNIQUE elements of same type.
+
+aset  = {10,10,20,30,10}
+
+
+
+comments
+-------
+
+- single line comment
+- multi line comment
+
+
+operators
+----------
+
+
+
+
+arithmetic operators :  + - * / %
+
+
+assignment operators ( ++ and -- are now allowed in python)
+val = 10
+val +=1    or  val = val + 1
+val *=1    or   val = val *1
+
+
+relational operators
+--------------------
+< <= > >= == !=
+
+if a < b :
+    # our logic
+
+
+logical opeartors
+------------------
+and or not
+
+name = "python"
+
+if exp1  and  exp2:
+    # ur logic
+
+# logical AND
+if name.isupper() and len(name) == 6:
+     ## ur logic
+
+# logical OR
+if name.isupper() or len(name) == 6:
+     ## ur logic
+
+
+
+
+special operators
+----------------
+in
+as
++
+*
+
+
+
+
+libraries
+--------
+
+
+- builtin libraries
+--------------------
+all the builtin libraries are installed with python itself
+( generally used by everyone :  OS level operations like copy files, moving files
+  math operations, ftp , string manipulations , smtp operations  )
+
+
+- third party libraries
+-----------------------------
+Depending on the requirement( cloud , web development , db automation , testing , ML,DL)
+   developer has to install third party library from 
+ 
+   - pypi.org ( manually)
+     step1 : search and download the library from www.pypi.org
+     step2 : navigate to that file
+     step3 : pip install cx_oracle_0.5.tar.gz
+
+
+   - pip tool ( installed with the python)
+     command : pip install library
+               pip install cx_Oracle
+
+   - conda tool ( if using anaconda)
+     command : conda install libraryname
+               conda install cx_Oracle
+
+
+   - easy_install tool ( just like pip )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
